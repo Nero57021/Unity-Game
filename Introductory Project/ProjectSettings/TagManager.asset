@@ -7,6 +7,7 @@ TagManager:
   - Ground
   - clouds
   - background
+  - bullet
   layers:
   - Default
   - TransparentFX
@@ -17,8 +18,8 @@ TagManager:
   - 
   - 
   - Ground
-  - 
-  - 
+  - Collidable_objects
+  - CameraBounds
   - 
   - 
   - 
@@ -41,6 +42,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background_01
+    uniqueID: 1873251933
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
