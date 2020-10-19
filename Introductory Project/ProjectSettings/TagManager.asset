@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ground
   - clouds
+  - background
   layers:
   - Default
   - TransparentFX
