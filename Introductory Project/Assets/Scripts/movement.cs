@@ -23,11 +23,11 @@ public class movement : MonoBehaviour
         }
         if(Mathf.Abs(mx)> 0.05f)
         {
-            anim.SetBool("isRunning", true);
+            anim.SetBool("isWalking", true);
         }
         else
         {
-            anim.SetBool("isRunning", false);
+            anim.SetBool("isWalking", false);
         }
         if(mx > 0f)
         {
