@@ -1,6 +1,5 @@
 # This .gitignore file should be placed at the root of your Unity project directory
-#
-# Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
+#Files to be ignored for the sake of not overflooding the git repository.
 #
 /[Ll]ibrary/
 /[Tt]emp/
@@ -10,8 +9,7 @@
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
 
-# MemoryCaptures can get excessive in size.
-# They also could contain extremely sensitive data
+# For memory captures if ever
 /[Mm]emoryCaptures/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
